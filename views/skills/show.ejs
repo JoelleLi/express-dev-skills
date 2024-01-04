@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>Skills</title>
+</head>
+<body>
+    <h2><%= skill.skill %></h3>
+    <h3>Unit: <%= skill.unit %></h3>
+    <h3>Project: <%= skill.project ? skill.project : "n/a" %></h3>
+    <h3>Project Link: <%= skill.projectLink ? skill.projectLink : "n/a" %></h3>
+    <h3>Passed: <%= skill.passed ? "Yes" : "No" %></h3>
+    <a href="/skills">Back to Skills</a>
+    |
+    <a href="/">Home</a>
+</body>
+</html>
